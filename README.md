@@ -17,7 +17,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-    $geo = new \jisoft\sypexgeo\Sypexgeo();
+    $geo = new \maxodrom\sypexgeo\Sypexgeo();
 
     // get by remote IP
     $geo->get();                // also returned geo data as array

@@ -10,7 +10,7 @@
 |   http://sypex.net/bsd_license.txt                                        |
 \***************************************************************************/
 
-namespace jisoft\sypexgeo;
+namespace maxodrom\sypexgeo;
 
 define ('SXGEO_FILE', 0);
 define ('SXGEO_MEMORY', 1);
@@ -54,7 +54,7 @@ class SxGeo {
 	public $batch_mode  = false;
 	public $memory_mode = false;
 
-	public function __construct($db_file = 'SxGeoCityMax.dat', $type = SXGEO_FILE){
+	public function __construct($db_file = 'SxGeoCity.dat', $type = SXGEO_FILE){
 		$this->fh = fopen(__DIR__.'/'.$db_file, 'rb');
 		// Сначала убеждаемся, что есть файл базы данных
 		$header = fread($this->fh, 40); // В версии 2.2 заголовок увеличился на 8 байт

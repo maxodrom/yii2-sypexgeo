@@ -11,7 +11,7 @@
  * @since 2.0
  */
 
-namespace jisoft\sypexgeo;
+namespace maxodrom\sypexgeo;
 
 class Sypexgeo
 {
